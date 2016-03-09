@@ -20,6 +20,21 @@ Or install it yourself as:
 
     $ gem install ship_quiet_logistics
 
+## Configuration
+
+WIP: Quiet Logistics uses S3 buckets and SQS queues for it's operations. Some ENV variables will need to be set.
+
+```ruby
+ENV['AWS_ACCESS_KEY_ID']
+ENV['AWS_SECRET_ACCESS_KEY']
+ENV['QUIET_INCOMING_QUEUE']
+ENV['QUIET_INCOMING_BUCKET']
+ENV['QUIET_OUTGOING_QUEUE']
+ENV['QUIET_OUTGOING_BUCKET']
+```
+
+Additionnaly Quiet Logistics requires a Business Unit and a Client ID
+
 ## Usage
 
 TODO: Write usage instructions here

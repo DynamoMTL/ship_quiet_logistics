@@ -1,5 +1,6 @@
 require 'aws-sdk'
 require 'nokogiri'
+require 'spree_core'
 
 require 'ship_quiet_logistics/version'
 require 'ship_quiet_logistics/api'
